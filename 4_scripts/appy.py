@@ -1,6 +1,6 @@
-from flask import Flask, jsonify, send_file, make_response
-from flask_restx import Api, Resource, fields # type:ignore 
-import pandas as pd
+from flask import Flask, jsonify, send_file, make_response 
+from flask_restx import Api, Resource, fields 
+import pandas as pd 
 
 app = Flask(__name__)
 api = Api(app, version="1.0", title="API de Dados CSV",

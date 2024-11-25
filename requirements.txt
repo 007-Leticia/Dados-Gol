@@ -1,5 +1,5 @@
 streamlit
-requests
 pandas 
 sqlalchemy 
 plotly
+requests
