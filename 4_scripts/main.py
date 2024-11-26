@@ -4,7 +4,7 @@ import plotly.express as px
 from sqlalchemy import create_engine 
 
 st.title('Trabalho Web: Dados Gol')
-engine = create_engine('sqlite:///banco.db', echo=True)
+engine = create_engine('sqlite:///4_scripts/banco.db', echo=True)
 try:
     df_lido = pd.read_sql('SELECT * FROM dados', con=engine)
     st.write("Dados carregados com sucesso!")
