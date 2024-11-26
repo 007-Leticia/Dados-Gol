@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 from sqlalchemy import create_engine 
 
-
 st.title('Trabalho Web: Dados Gol')
 engine = create_engine('sqlite:///banco.db', echo=True)
 try:
